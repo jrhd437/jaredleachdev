@@ -3,29 +3,32 @@
     <div class="container">
       <main>
         <article>
-          <h1>About Me</h1>
+          <h1>Jared Leach</h1>
           <p>
-            When I was eight years old I wrote my first lines of HTML. I was
-            instantly hooked on web development. By the time I was 14, I had
-            learned XHTML and CSS, and soon was beginning JavaScript and
-            ActionScript.
+            Hi, I'm Jared. I'm a web developer in central Oklahoma.
+            I wrote my first lines of HTML when I was 8 years old,
+            to customize an AOL Hometown page. When I was 13, I
+            went deeper with XHTML, CSS, and some basic JavaScript.
           </p>
           <p>
-            When I was 17, I began attending college and soon earned an
-            associate's degree in Web Development Technology from Rose State
-            College. After working in the field for several years, I returned to
+            I did some freelance web development in my teenage years,
+            and at 17 I began college and soon earned an Associate
+            degree in Web Development Technology from Rose State College.
+          </p>
+          <p>
+            After working in the field for several years, I returned to
             university and completed a bachelor's degree from Liberty
             University.
           </p>
           <p>
-            In 2021 I'm diving more into Laravel 8, Vue 3, the Go language and
-            Fiber framework.
+            In 2021 I continue to learn and work full-time as a web developer.
+            In particular, I'm spending more time with Vue 3, PHP 8, and NodeJS.
           </p>
           <h2>Hobbies &amp; Interests</h2>
           <p>
-            <strong>I'm a nerd.</strong> I love tech. On the average day I use
-            MacOS, Windows, and Linux. I love learning new programming languages
-            and frameworks,
+            <strong>I'm a nerd.</strong> I love tech. Whether I'm watching WWDC,
+            running an experiment with a Raspberry Pi, or configurting a reverse-
+            proxy with nginx, I'm having fun with technology.
           </p>
           <p>
             <strong>I'm an Oklahoman.</strong> I was born in Oklahoma, and have
@@ -36,10 +39,11 @@
           <p>
             <strong>I'm a Christian.</strong> Growing up in the faith, I began
             learning the basics of Biblical Hebrew when I was eleven years old,
-            and learned the basics of Biblical Greek when I was sixteen. I am
-            ecumenical, regularly listening to theologians across the Christian
-            spectrum. I have a developing interest in Church history;
-            particularly in the apostolic and ante-nicene eras.
+            and learned the basics of Biblical Greek when I was sixteen. I'm
+            currently spending time listening to theologians across various
+            Christian traditions, returning to Greek, and developing a greater
+            interest in Church history; particularly in the apostolic and 
+            ante-nicene eras.
           </p>
         </article>
         <aside>
