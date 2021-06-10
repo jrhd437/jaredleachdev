@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem $container-width-padding;
+    font-weight: bold;
+    font-size: 1.25rem;
+    background-color: rgba(255, 255, 255, $glass-opacity);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 7px 0px #555;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        padding: 0rem 0rem;
+    }
+}
+
+header>#menuHandle {
+    display: none;
+    color: #369;
+    padding: 1rem;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        text-align: center;
+        display: block;
+    }
+}
+
+header>#logo {
+    color: $accent1;
+    padding: 1rem;
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        text-align: center;
+    }
+}
+
+header>nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rbga(255, 255, 255, 0.8);
+
+    @media screen and (max-width: $mobile-breakpoint) {
+        display: none;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        padding: 1rem;
+        text-align: center;
+        transition: background-color 0.5s, color 0.5s;
+
+        @media screen and (max-width: $mobile-breakpoint) {
+            display: none;
+        }
+    }
+
+    a:hover {
+        background-color: rgba(255, 255, 255, 0.45);
+        color: $accent1;
+    }
+}

@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.profile-pic {
+  text-align: center;
+  display: block;
+}
+
+.profile-pic img {
+  width: 90%;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 7px 0px #555;
+          box-shadow: 0px 0px 7px 0px #555;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .profile-pic img {
+    width: 50%;
+  }
+}
+
+aside {
+  background-color: rgba(18, 200, 164, 0.7);
+  text-align: center;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+@media screen and (max-width: 800px) {
+  aside {
+    display: block;
+    width: unset;
+  }
+}
+
+aside .aside-title {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0.5rem 0rem;
+  padding: 0;
+}
+
+aside ul li {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: .75rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0rem 3rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  -webkit-box-shadow: 0px 0px 7px 0px #555;
+          box-shadow: 0px 0px 7px 0px #555;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    padding: 0rem 0rem;
+  }
+}
+
+header > #menuHandle {
+  display: none;
+  color: #369;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  header > #menuHandle {
+    text-align: center;
+    display: block;
+  }
+}
+
+header > #logo {
+  color: #CC0000;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  header > #logo {
+    text-align: center;
+  }
+}
+
+header > nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rbga(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 800px) {
+  header > nav {
+    display: none;
+  }
+}
+
+header > nav a {
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+  text-align: center;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+  header > nav a {
+    display: none;
+  }
+}
+
+header > nav a:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  color: #CC0000;
+}
+
+footer {
+  color: #EEE;
+  background-color: rgba(43, 50, 71, 0.9);
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    display: block;
+    border-radius: unset;
+  }
+}
+
+footer section {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  footer section {
+    display: block;
+    width: unset;
+  }
+}
+
+footer .footer-title {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid white;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+footer .footer-social {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+footer .footer-social a {
+  color: cyan;
+}
+
+#menu {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  #menu {
+    display: block;
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+    height: 80vh;
+    width: 100vw;
+    -webkit-box-shadow: 0px 0px 7px 0px #555;
+            box-shadow: 0px 0px 7px 0px #555;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  #menu a {
+    color: #CC0000;
+  }
+  #menu .menu-title {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  #menu .menu-item {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+  }
+  #menu .menu-item a {
+    color: #CC0000;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  #menu .close {
+    background-color: #CC0000;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.2rem 0.75rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: white;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 0px 5px 0px #222;
+          box-shadow: 0px 0px 5px 0px #222;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    text-align: center;
+    display: block;
+    margin: 1rem 0rem;
+  }
+}
+
+.card .image {
+  text-align: center;
+  width: 33%;
+}
+
+.card .image img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .card .image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.card .description {
+  padding-left: 2rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .card .description {
+    text-align: center;
+    padding: unset;
+  }
+}
+
+.card .description > div {
+  line-height: 2rem;
+}
+
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  background: url("/images/bg_4k.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 1920px) {
+  body,
+  html {
+    background: url("/images/bg_2k.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body,
+  html {
+    background: url("/images/bg_1024.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+strong,
+b,
+i,
+div,
+section,
+a {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  color: #CC0000;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  color: #CC0000;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 2.5rem auto;
+  padding: 0rem 0rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 0px 7px 0px #555;
+          box-shadow: 0px 0px 7px 0px #555;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin: 0.5rem 0rem;
+    border-radius: unset;
+  }
+}
+
+main,
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 33%;
+          flex: 2 1 33%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  main,
+  footer {
+    display: block;
+  }
+}
+
+main > *,
+footer > * {
+  padding: 3rem;
+}
+
+article {
+  -webkit-box-flex: 6;
+      -ms-flex-positive: 6;
+          flex-grow: 6;
+}
+
+article img {
+  max-width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+  article {
+    margin: 0px;
+    padding: 2rem;
+  }
+}
+
+.btn {
+  background-color: #CC0000;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1rem 3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.btn a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
