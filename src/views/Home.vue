@@ -27,7 +27,7 @@
           <h2>Hobbies &amp; Interests</h2>
           <p>
             <strong>I'm a nerd.</strong> I love tech. Whether I'm watching WWDC,
-            running an experiment with a Raspberry Pi, or configurting a reverse-
+            running an experiment with a Raspberry Pi, or configuring a reverse-
             proxy with nginx, I'm having fun with technology.
           </p>
           <p>

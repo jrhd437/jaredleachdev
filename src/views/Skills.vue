@@ -76,6 +76,16 @@
           />
 
           <Card
+            image="/images/go.png"
+            alt="Go"
+            title="Go"
+            body="
+                    I have used Go (aka GoLang) for web applications, devOps scripts, and command-line tools.
+                    I have used the Fiber framework with Go to create web applications.
+                  "
+          />
+
+          <Card
             image="/images/html5.png"
             alt="HTML5"
             title="HTML5"
